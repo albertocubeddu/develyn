@@ -9,7 +9,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel
 from langchain_core.language_models.chat_models import BaseChatModel
 
-class DevRelAgentResonses(BaseModel):
+class DevRelAgentResponses(BaseModel):
     "Give the reasoning and then the agent name"
     reasoning: str
     agent_name: AgentName
@@ -21,7 +21,7 @@ class DevrelAgent:
         self.llm = ChatOpenAI(
             temperature=0,
             model="gpt-4o-mini",
-        ).with_structured_output(DevRelAgentResonses)
+        ).with_structured_output(DevRelAgentResponses)
 
     def get_node(self):
         return functools.partial(self.agent_node, llm=self.llm, name=self.name)
@@ -32,5 +32,5 @@ class DevrelAgent:
         result = llm.invoke([system_message] + state.messages)
         print(result)
         return {
-            "next_step": result['agent_name']
+            "next_step": result.agent_name
         }
