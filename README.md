@@ -1,6 +1,6 @@
 
 
-![](static/develyn_graph.png)
+![](static/develyn.png)
 
 # Develyn- Your Developer Relations Agent
 
