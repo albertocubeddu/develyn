@@ -6,9 +6,9 @@ class AgentName(str, Enum):
     "If the request is not clear, return None"
 
     NONE = "NONE"
-    QA_AGENT = "QA AGENT"
-    DEVELOPER_AGENT = "DEVELOPER AGENT"
-    COMMUNITY_MANAGER_AGENT = "COMMUNITY MANAGER AGENT"
+    QA_AGENT = "Technical Q&A Agent"
+    DEVELOPER_AGENT = "Developer Agent"
+    COMMUNITY_MANAGER_AGENT = "Community Manager Agent"
 
 class Agent(ABC):
     name: AgentName

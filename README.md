@@ -6,6 +6,10 @@
 
 This is an AI Agent that allows you to manage your community, answer technical questions, and generate code for your use cases for any Open Source project. This agent is built using  LangGraph.
 
+## Demo
+[![Watch our quick demo](https://cdn.loom.com/sessions/thumbnails/d9aa2fc7257e42c7ab26db018634b16c-2d8dc11d336f446d-full-play.gif)](https://www.loom.com/share/d9aa2fc7257e42c7ab26db018634b16c)
+
+
 ## Features
 
 - **Community Manager Agent**: Handles general messages in your developer community(example, Discord) and routes them to the Community Manager who can respond to them or redirect them to the appropriate channel
