@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "develyn"
+version = "0.1.0"
+description = ""
+authors = ["Aditya Lahiri <adityalahiri13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+discord-py = "^2.4.0"
+langchain-openai = "^0.1.17"
+langchain-together = "^0.1.4"
+langchain-core = "^0.2.21"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+langchain = "^0.2.9"
+firebase-admin= "^6.5.0"
+langgraph = "^0.2.3"
+langchain-community = "^0.2.11"
+bs4 = "^0.0.2"
+debugpy = "^1.8.5"
+portkey-ai = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
