@@ -11,7 +11,7 @@ load_dotenv()
 DISCORD_BOT_TOKEN = os.getenv('BOT_API_KEY')
 
 # Path to the service account key JSON file
-cred = credentials.Certificate("./prompt-learner-ca90f-firebase-adminsdk-sbthz-68d1bf5400.json")
+cred = credentials.Certificate("./firebase-config.json")
 
 initialize_app(cred)
 
