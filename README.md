@@ -81,6 +81,11 @@ The developer agent also runs the code on your system to check for errors, retri
 
 Contributions are welcome!
 
+## Open Doc Analytics ![](https://telemetry.openfunnel.dev?section=openanalytics&ref=github)
+
+We track very basic usage metrics on our docs to guide us to figure out what our users want, what is working, and what's not. As a young startup, we have to be brutally honest about this which is why we are tracking these metrics. It's a simple view based tracker that tracks how many times the readme sections were read.
+
+
 ## License ![](https://telemetry.openfunnel.dev/pixelTracker?section=license&ref=github)
 
 This project is licensed under the MIT License.
