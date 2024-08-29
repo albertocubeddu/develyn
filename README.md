@@ -2,21 +2,21 @@
 
 ![](static/develyn.png)
 
-# Develyn - Your Developer Relations Agent ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=title&ref=github)
+# Develyn - Your Developer Relations Agent ![](https://telemetry.openfunnel.dev/pixelTracker?section=title&ref=github)
 
 This is an AI Agent that allows you to manage your community, answer technical questions, and generate code for your use cases for any Open Source project. This agent is built using LangGraph.
 
-## Demo
+## Demo ![](https://telemetry.openfunnel.dev/pixelTracker?section=demovideo&ref=github)
 
 [![Watch our quick demo](https://cdn.loom.com/sessions/thumbnails/d9aa2fc7257e42c7ab26db018634b16c-2d8dc11d336f446d-full-play.gif)](https://www.loom.com/share/d9aa2fc7257e42c7ab26db018634b16c)
 
-## Features ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=features&ref=github)
+## Features ![](https://telemetry.openfunnel.dev/pixelTracker?section=features&ref=github)
 
 - **Community Manager Agent**: Handles general messages in your developer community (e.g., Discord) and routes them to the Community Manager who can respond to them or redirect them to the appropriate channel.
 - **QA Agent**: Manages technical questions that do not require code generation.
 - **Developer Agent**: Deals with technical questions that require code generation.
 
-## Setup ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=setup&ref=github)
+## Setup ![](https://telemetry.openfunnel.dev/pixelTracker?section=setup&ref=github)
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ To run the bot as a Discord bot, follow these steps:
    poetry run python main.py
    ```
 
-## Agents ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=agents&ref=github)
+## Agents ![](https://telemetry.openfunnel.dev/pixelTracker?section=agents&ref=github)
 
 ### Community Manager Agent
 
@@ -77,15 +77,15 @@ Deals with technical questions that require code generation. These are questions
 
 The developer agent also runs the code on your system to check for errors, retries with errors, and finally returns the best effort code.
 
-## Contributing ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=contributing&ref=github)
+## Contributing ![](https://telemetry.openfunnel.dev?section=contributing&ref=github)
 
 Contributions are welcome!
 
-## License ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=license&ref=github)
+## License ![](https://telemetry.openfunnel.dev/pixelTracker?section=license&ref=github)
 
 This project is licensed under the MIT License.
 
-## Contact ![](https://us-central1-prompt-learner-ca90f.cloudfunctions.net/openfunnel_doc_telemetry/pixelTracker?section=contact&ref=github)
+## Contact ![](https://telemetry.openfunnel.dev/pixelTracker?section=contact&ref=github)
 
 For any questions or suggestions, feel free to open an issue or contact us at [adityalahiri13@gmail.com](mailto:adityalahiri13@gmail.com).
 
